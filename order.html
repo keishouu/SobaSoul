@@ -32,7 +32,7 @@
                                       <h4 class="card-text">Miso Ramen</h4>
                                       <h6 class="card-text">250 PHP</h6>
                                       <input type="number" class="miso qty" placeholder="Enter how many">
-                                      <button class="btn btn-primary addOrder" data-item="miso" onclick="addDiv('Miso Ramen', 0)" style="margin-top: 5px; margin-left: 55%;">Add Order</button>
+                                      <button class="addOrder" data-item="miso" onclick="addDiv('Miso Ramen', 0)">Add Order</button>
                                     </div>
                                 </div>
                             </div>
@@ -43,7 +43,7 @@
                                       <h4 class="card-text">Chashu Pork Ramen</h4>
                                       <h6 class="card-text">280 PHP</h6>
                                       <input type="number" class="chashu qty" placeholder="Enter how many">
-                                      <button class="btn btn-primary addOrder" data-item="chashu" onclick="addDiv('Chashu Pork Ramen', 1)" style="margin-top: 5px; margin-left: 55%;">Add Order</button>
+                                      <button class="addOrder" data-item="chashu" onclick="addDiv('Chashu Pork Ramen', 1)">Add Order</button>
                                     </div>
                                 </div>
                             </div>
@@ -54,7 +54,7 @@
                                       <h4 class="card-text">Shoyu Ramen</h4>
                                       <h6 class="card-text">250 PHP</h6>
                                       <input type="number" class="shoyu qty" placeholder="Enter how many">
-                                      <button class="btn btn-primary addOrder" data-item="shoyu" onclick="addDiv('Shoyu Ramen', 2)"style="margin-top: 5px; margin-left: 55%;">Add Order</button>
+                                      <button class="addOrder" data-item="shoyu" onclick="addDiv('Shoyu Ramen', 2)">Add Order</button>
                                     </div>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@
                                       <h4 class="card-text">Fried Rice</h4>
                                       <h6 class="card-text">150 PHP</h6>
                                       <input type="number" class="frice qty" placeholder="Enter how many">
-                                      <button class="btn btn-primary addOrder" data-item="frice" onclick="addDiv('Fried Rice', 3)" style="margin-top: 5px; margin-left: 55%;">Add Order</button>
+                                      <button class="addOrder" data-item="frice" onclick="addDiv('Fried Rice', 3)">Add Order</button>
                                     </div>
                                 </div>
                             </div>
@@ -79,7 +79,7 @@
                                       <h4 class="card-text">Katsudon</h4>
                                       <h6 class="card-text">290 PHP</h6>
                                       <input type="number" class="katsu qty" placeholder="Enter how many">
-                                      <button class="btn btn-primary addOrder" data-item="katsu" onclick="addDiv('Katsudon', 4)" style="margin-top: 5px; margin-left: 55%;">Add Order</button>
+                                      <button class="addOrder" data-item="katsu" onclick="addDiv('Katsudon', 4)">Add Order</button>
                                     </div>
                                 </div>
                             </div>
@@ -90,7 +90,7 @@
                                       <h4 class="card-text">Onigiri</h4>
                                       <h6 class="card-text">100 PHP</h6>
                                       <input type="number" class="onigiri qty" placeholder="Enter how many">
-                                      <button class="btn btn-primary addOrder" data-item="onigiri"  onclick="addDiv('Onigiri', 5)" style="margin-top: 5px; margin-left: 55%;">Add Order</button>
+                                      <button class="addOrder" data-item="onigiri"  onclick="addDiv('Onigiri', 5)">Add Order</button>
                                     </div>
                                 </div>
                             </div>
@@ -104,7 +104,7 @@
                                       <h4 class="card-text">Gyoza</h4>
                                         <h6 class="card-text">130 PHP</h6>
                                       <input type="number" class="gyoza qty" placeholder="Enter how many">
-                                      <button class="btn btn-primary addOrder" data-item="gyoza" onclick="addDiv('Gyoza', 6)" style="margin-top: 5px; margin-left: 55%;">Add Order</button>
+                                      <button class="addOrder" data-item="gyoza" onclick="addDiv('Gyoza', 6)">Add Order</button>
                                     </div>
                                 </div>
                             </div>
@@ -115,7 +115,7 @@
                                       <h4 class="card-text">Kakitamajiru</h4>
                                       <h6 class="card-text">250 PHP</h6>
                                       <input type="number" class="kakita qty" placeholder="Enter how many">
-                                      <button class="btn btn-primary addOrder" data-item="kakita" onclick="addDiv('Kakitamajiru', 7)" style="margin-top: 5px; margin-left: 55%;">Add Order</button>
+                                      <button class="addOrder" data-item="kakita" onclick="addDiv('Kakitamajiru', 7)">Add Order</button>
                                     </div>
                                 </div>
                             </div>
@@ -126,7 +126,7 @@
                                       <h4 class="card-text">Dango</h4>
                                       <h6 class="card-text">120 PHP</h6>
                                       <input type="number" class="dango qty" placeholder="Enter how many">
-                                      <button class="btn btn-primary addOrder" data-item="dango" onclick="addDiv('Dango', 8)" style="margin-top: 5px; margin-left: 55%;">Add Order</button>
+                                      <button class="addOrder" data-item="dango" onclick="addDiv('Dango', 8)">Add Order</button>
                                     </div>
                                 </div>
                             </div>
@@ -145,7 +145,7 @@
                     <div class="card-footer">
                         <div class="card-title"><h4> Total: <span id="ordertotal"> <!--the total will show here--></span> PHP </h4></div>
                         <input type="number" id="payment" placeholder="Enter Amount Here">
-                        <button class="btn btn-success" onclick="payOrder()" style="margin-top: 5px; margin-left: 70%;" >Pay!</button>
+                        <button class="pay" onclick="payOrder()">Pay!</button>
                     </div>
                 </div>
             </div>
