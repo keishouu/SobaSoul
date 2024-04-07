@@ -49,18 +49,27 @@ body {
 
 #menucard input {
     width: 100%;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 button {
     width: 6.9vw;
     height: 2.5vw;
-    font-size: 5vw;
 }
 
+.addOrder {
+    background-color: #7AA2E3;
+    margin-top: 5px;
+    margin-left: 55%;
+    border-radius: 10px;
+    border: none;
+    color: #FEFDED;
+    font-weight: bold;
+    font-size: 1vw;
+}
 .card-footer input {
     width: 100%;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 .menu {
@@ -82,4 +91,15 @@ button {
 
 .orderlist {
     height: auto;
+}
+
+.pay {
+    margin-top: 5px;
+    margin-left: 73%;
+    background-color: #A1C398;
+    font-size: 1vw;
+    color: #FEFDED;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
 }
